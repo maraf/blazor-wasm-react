@@ -2,6 +2,9 @@
 
 This sample shows how to use Blazor WebAssembly integrated into a React application.
 
+- [Blazor Community Standup - Integrate .NET in JavaScript apps](https://www.youtube.com/watch?v=tAh899Gri4E)
+- [.NET + React demo](https://github.com/maraf/dotnet-wasm-react)
+
 ## Project structure
 
 - **app**: target react application using rollup to do the JavaScript build
