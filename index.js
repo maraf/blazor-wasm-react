@@ -2833,8 +2833,10 @@ React.createElement(component,{...params}))
 
 }
 
+const basename=location.hostname=="localhost"?'':'/blazor-wasm-react';
+
 ReactDOM.createRoot(document.querySelector('#root')).render(/*#__PURE__*/
-React.createElement(BrowserRouter,null,/*#__PURE__*/
+React.createElement(BrowserRouter,{basename:basename},/*#__PURE__*/
 React.createElement("div",{class:"container"},/*#__PURE__*/
 React.createElement("nav",null,/*#__PURE__*/
 React.createElement(NavLink,{to:"/",end:true},"Home"),/*#__PURE__*/
