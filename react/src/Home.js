@@ -5,6 +5,9 @@ export default function Home() {
     <>
         <h1>Hello from React</h1>
         <p>This is a React component with greetings</p>
+        <p>
+          Code at <a href="https://github.com/maraf/blazor-wasm-react">https://github.com/maraf/blazor-wasm-react</a>
+        </p>
     </>
   );
 }
