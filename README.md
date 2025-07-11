@@ -1,4 +1,4 @@
-# Blazor WASM in a react application
+# Blazor WASM in a React application
 
 This sample shows how to use Blazor WebAssembly integrated into a React application.
 
@@ -7,7 +7,7 @@ This sample shows how to use Blazor WebAssembly integrated into a React applicat
 
 ## Project structure
 
-- **app**: target react application using rollup to do the JavaScript build
+- **app**: target React application using rollup to do the JavaScript build
 - **blazor**: Blazor WebAssembly application containing several components
 
 ## Live demo
