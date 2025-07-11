@@ -4,8 +4,10 @@ import { BrowserRouter, NavLink, Routes, Route } from "react-router";
 import Home from './Home';
 import BlazorComponent from './BlazorComponent';
 
+const basename = location.hostname == "localhost" ? '' : '/blazor-wasm-react';
+
 ReactDOM.createRoot(document.querySelector('#root')).render(
-   <BrowserRouter>
+   <BrowserRouter basename={basename}>
       <div class="container">
          <nav>
             <NavLink to="/" end>Home</NavLink>
